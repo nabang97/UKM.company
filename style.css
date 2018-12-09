@@ -1,0 +1,84 @@
+@font-face {
+    font-family:myFirstFont;
+    src: url("fonts/BaligScript-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family:mySecondFont;
+    src: url("fonts/Proxima Nova Thin.otf") format("opentype");
+}
+
+.ukm-body{
+  margin: 0;
+}
+.ukm-container{
+height: 130vh;
+width: 100%;
+background-color: black;
+background-image: url('image/background.png');
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1;
+}
+.ukm-layer{
+  height: 130vh;
+  width: 100%;
+  background-color: black;
+  z-index: 2;
+  margin: 0;
+  position: absolute;
+  opacity: 0.5;
+}
+.ukm-content{
+    height: auto;
+    width: 60%;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    margin-left: -30%;
+    top: 20%;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.ukm-title{
+    font-family: myFirstFont;
+}
+.ukm-title>h3{
+  font-size: 6em;
+  font-weight: lighter;
+  color: gold;
+  margin: 0;
+}
+.ukm-grid{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+  "ukm-fashion ukm-music ukm-food"
+}
+.ukm-fashion{
+  grid-area: ukm-fashion;
+
+}
+.ukm-music{
+  grid-area: ukm-music;
+}
+.ukm-food{
+  grid-area: ukm-food;
+}
+.ukm-fashion,.ukm-music,.ukm-food{
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #000000a1;
+}
+.ukm-fashion>h2,.ukm-music>h2,.ukm-food>h2{
+  font-size: 3em;
+  color: gold;
+  margin: 0px;
+}
+.ukm-fashion>p,.ukm-music>p,.ukm-food>p{
+  color: white;
+  font-family:mySecondFont;
+}
