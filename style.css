@@ -11,7 +11,7 @@
   margin: 0;
 }
 .ukm-container{
-height: 130vh;
+height: 100vh !important;
 width: 100vw;
 background-color: black;
 background-image: url('image/background.png');
@@ -21,7 +21,7 @@ background-position: center;
 z-index: 1;
 }
 .ukm-layer{
-  height: 130vh;
+  height: 100vh !important;
   width: 100vw;
   background-color: black;
   z-index: 2;
@@ -85,6 +85,7 @@ img.ukm-logo{
 .ukm-fashion>p,.ukm-music>p,.ukm-food>p{
   color: white;
   font-family:mySecondFont;
+  font-size: 1.2em !important;
 }
 .ukm-ig{
 margin-top:100px;
