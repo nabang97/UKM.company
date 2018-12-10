@@ -12,16 +12,17 @@
 }
 .ukm-container{
 height: 130vh;
-width: 100%;
+width: 100vw;
 background-color: black;
 background-image: url('image/background.png');
 background-repeat: no-repeat;
 background-size: cover;
+background-position: center;
 z-index: 1;
 }
 .ukm-layer{
   height: 130vh;
-  width: 100%;
+  width: 100vw;
   background-color: black;
   z-index: 2;
   margin: 0;
@@ -39,14 +40,16 @@ z-index: 1;
     margin-top: -20px;
     text-align: center;
 }
-
+img.ukm-logo{
+  width: 60%;
+}
 .ukm-title{
     font-family: myFirstFont;
 }
 .ukm-title>h3{
   font-size: 6em;
   font-weight: lighter;
-  color: gold;
+  color: #896824;
   margin: 0;
 }
 .ukm-grid{
@@ -71,14 +74,18 @@ z-index: 1;
 .ukm-fashion,.ukm-music,.ukm-food{
   padding: 15px;
   border-radius: 25px;
-  background-color: #000000a1;
+  background-color: rgba(0, 0, 0, 0.63);
+  cursor: pointer;
 }
 .ukm-fashion>h2,.ukm-music>h2,.ukm-food>h2{
   font-size: 3em;
-  color: gold;
+  color: #896824;
   margin: 0px;
 }
 .ukm-fashion>p,.ukm-music>p,.ukm-food>p{
   color: white;
   font-family:mySecondFont;
+}
+.ukm-ig{
+margin-top:100px;
 }
