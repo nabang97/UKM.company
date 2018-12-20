@@ -1,92 +1,80 @@
 @font-face {
-    font-family:myFirstFont;
-    src: url("fonts/BaligScript-Regular.otf") format("opentype");
+  font-family: Proxima;
+  src: url('fonts/Proxima Nova Thin.otf');
 }
 @font-face {
-    font-family:mySecondFont;
-    src: url("fonts/Proxima Nova Thin.otf") format("opentype");
+  font-family: Proxima reguler;
+  src: url('fonts/ProximaNova-Regular.otf');
+}
+@font-face {
+  font-family: Proxima Semibold;
+  src: url('fonts/Proxima Nova Semibold.otf');
+}
+@font-face {
+  font-family: Balig;
+  src: url('fonts/BaligScript-Regular.otf');
 }
 
-.ukm-body{
-  margin: 0;
+.bg-army{  background: #303E2C}
+.navbar{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-.ukm-container{
-height: 100vh !important;
-width: 100vw;
-background-color: black;
-background-image: url('image/background.png');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-z-index: 1;
-}
-.ukm-layer{
-  height: 100vh !important;
-  width: 100vw;
-  background-color: black;
-  z-index: 2;
-  margin: 0;
-  position: absolute;
-  opacity: 0.5;
-}
-.ukm-content{
-    height: auto;
-    width: 60%;
-    z-index: 3;
-    position: absolute;
-    left: 50%;
-    margin-left: -30%;
-    top: 20%;
-    margin-top: -20px;
-    text-align: center;
-}
-img.ukm-logo{
-  width: 60%;
-}
-.ukm-title{
-    font-family: myFirstFont;
-}
-.ukm-title>h3{
-  font-size: 6em;
-  font-weight: lighter;
-  color: #896824;
-  margin: 0;
-}
-.ukm-grid{
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-gap: 20px;
-  grid-template-areas:
-  "ukm-fashion ukm-music ukm-food"
-}
-.ukm-fashion{
-  grid-area: ukm-fashion;
-
-}
-.ukm-music{
-  grid-area: ukm-music;
-}
-.ukm-food{
-  grid-area: ukm-food;
-}
-.ukm-fashion,.ukm-music,.ukm-food{
-  padding: 15px;
-  border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.63);
-  cursor: pointer;
-}
-.ukm-fashion>h2,.ukm-music>h2,.ukm-food>h2{
-  font-size: 3em;
-  color: #896824;
-  margin: 0px;
-}
-.ukm-fashion>p,.ukm-music>p,.ukm-food>p{
+.navbar-light .navbar-nav .active>.nav-link{
   color: white;
-  font-family:mySecondFont;
-  font-size: 1.2em !important;
+  font-family: Proxima Semibold;
 }
-.ukm-ig{
-margin-top:100px;
+.slide-image{ width: 100%;}
+.ukm-slide-container{ padding: 0;}
+.ukm-content-home{ padding-top: 80px;}
+.ukm-title{
+  font-family: Balig;
+  font-size: 4em;
+  color: #A88535;
+  margin-bottom: 0px;
+  line-height: 60px
+}
+.ukm-text-content{
+  width: 50%;
+}
+.line{
+  width: 60%;
+  height: 2px;
+  background: black;
+}
+.grid-content-home{
+  display: grid;
+  grid-auto-columns: auto auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 100px;
+  grid-row-gap: 30px;
+  grid-template-areas:
+  " text-1 title-1 "
+  " title-2 text-2 "
+  " text-3 title-3 "
+}
+.title-1{grid-area:title-1;text-align: left;}
+.title-2{grid-area:title-2;text-align: right;}
+.title-3{grid-area:title-3;text-align: left;}
+.text-1{grid-area:text-1;}
+.text-2{grid-area:text-2}
+.text-3{grid-area:text-3}
+
+.title-1>.ukm-text-content>.line,.title-3>.ukm-text-content>.line{float: left;}
+.title-2>.ukm-text-content>.line{
+  float: right;
+  width:90%;
+}
+.text-1>img,.text-3>img,.title-2>.ukm-text-content{float: right;}
+.text-1>img,.text-2>img,.text-3>img{
+  max-width: 70%;
+}
+.logo-footer{
+  width:12%;
+}
+.ukm-text-content>p{
+  font-family: Proxima reguler;
+  font-size: 1.1em;
 }
