@@ -1,20 +1,20 @@
 @font-face {
   font-family: Proxima;
-  src: url('fonts/Proxima Nova Thin.otf');
+  src: url('../fonts/Proxima Nova Thin.otf');
 }
 @font-face {
   font-family: Proxima reguler;
-  src: url('fonts/ProximaNova-Regular.otf');
+  src: url('../fonts/ProximaNova-Regular.otf');
 }
 @font-face {
   font-family: Proxima Semibold;
-  src: url('fonts/Proxima Nova Semibold.otf');
+  src: url('../fonts/Proxima Nova Semibold.otf');
 }
 @font-face {
   font-family: Balig;
-  src: url('fonts/BaligScript-Regular.otf');
+  src: url('../fonts/BaligScript-Regular.otf');
 }
-
+body{ margin: 0}
 .bg-army{  background: #303E2C}
 .navbar{
   padding-top: 30px;
@@ -27,7 +27,7 @@
   font-family: Proxima Semibold;
 }
 .slide-image{ width: 100%;}
-.ukm-slide-container{ padding: 0;}
+.ukm-slide-container{ padding: 0; margin-top: 70px;}
 .ukm-content-home{ padding-top: 80px;}
 .ukm-title{
   font-family: Balig;
@@ -71,8 +71,9 @@
 .text-1>img,.text-2>img,.text-3>img{
   max-width: 70%;
 }
-.logo-footer{
+img.logo-footer{
   width:12%;
+  cursor: pointer;
 }
 .ukm-text-content>p{
   font-family: Proxima reguler;

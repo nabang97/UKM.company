@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title></title>
   </head>
   <body class="ukm-body">
     <!-- As a link -->
-<nav class="navbar navbar-light bg-army">
+<nav class="navbar navbar-light bg-army fixed-top">
   <a class="navbar-brand" href="#">
     <img src="image/logo-ukm.png" width="100" class="img-fluid" alt="">
   </a>
@@ -35,14 +35,14 @@
     <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="image/background.png" alt="Los Angeles" class="slide-image">
-      </div>
-      <!-- <div class="carousel-item">
-        <img src="chicago.jpg" alt="Chicago">
+        <img src="image/background.png" class="slide-image">
       </div>
       <div class="carousel-item">
-        <img src="ny.jpg" alt="New York">
-      </div> -->
+        <img src="image/background.png" class="slide-image">
+      </div>
+      <div class="carousel-item">
+        <img src="image/background.png" class="slide-image">
+      </div>
     </div>
 
     <!-- Left and right controls -->
