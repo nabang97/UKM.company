@@ -94,3 +94,7 @@ img.logo-footer{
 .float-footer{
   float: right;
 }
+.link-ukm,.link-ukm:hover,.link-ukm:active,.link-ukm:focus{
+  text-decoration: none;
+  color: white;
+}

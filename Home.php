@@ -107,12 +107,12 @@
       <div class="col-sm-6">
           <h5>
             <span class="text-unbold">Creative Idea & Design</span><br>
-            <span>OXSA PICASSO</span>
+            <span><a href="" class="link-ukm">OXSA PICASSO</a></span>
           </h5>
           <br>
           <h5>
             <span class="text-unbold">Programmer</span><br>
-            <span>YOLANDA PARAWITA<br>VEDO ALFARIZI</span>
+            <span><a href="" class="link-ukm">YOLANDA PARAWITA</a><br><a href="" class="link-ukm">VEDO ALFARIZI</a></span>
           </h5>
       </div>
       <div class="col-sm-6">
