@@ -74,6 +74,17 @@
   .logo-footer{
     width:25%;
   }
+
+
+}
+@media only screen and (max-width:500px) {
+  .slide-image{
+    object-fit: cover;
+    height: 250px;
+  }
+  .logo-footer{
+    width:30%;
+  }
   .ukm-footer{
     text-align: center;
   }
@@ -83,15 +94,6 @@
     text-align: center;
     align-self: center;
     align-items: center;
-  }
-}
-@media only screen and (max-width:500px) {
-  .slide-image{
-    object-fit: cover;
-    height: 250px;
-  }
-  .logo-footer{
-    width:30%;
   }
 }
 @media only screen and (max-width:412px) {
