@@ -114,7 +114,6 @@
             <span class="text-unbold">Programmer</span><br>
             <span>YOLANDA PARAWITA<br>VEDO ALFARIZI</span>
           </h5>
-          <br>
       </div>
       <div class="col-sm-6">
         <div class="float-footer">
