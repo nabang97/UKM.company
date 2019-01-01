@@ -109,12 +109,12 @@
             <span class="text-unbold">Creative Idea & Design</span><br>
             <span>OXSA PICASSO</span>
           </h5>
-
+          <br>
           <h5>
             <span class="text-unbold">Programmer</span><br>
             <span>YOLANDA PARAWITA<br>VEDO ALFARIZI</span>
           </h5>
-
+          <br>
       </div>
       <div class="col-sm-6">
         <div class="float-footer">
