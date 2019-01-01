@@ -77,7 +77,7 @@
           <h1 class="ukm-title">how we do?
           </h1>
           <div class="line"></div>
-          <p style="margin-top:10px;">Kami berusaha untuk mengkolaborasikan para pengusaha atau pedagang dengan para creator untuk menghasilkan kreatifitas serta memanfaatkan teknologi secara maksimal</p>
+          <p style="margin-top:10px;">Kami berusaha untuk mengkolaborasikan kreatifitas dan teknologi untuk membangun ekonomi kreatif di Kota Padang </p>
         </div>
       </div>
       <div class="text-2">
@@ -101,10 +101,33 @@
 
   </div>
 </div>
-<div class="container ukm-footer" style="margin-top:100px;margin-bottom:100px;">
-  <center>
-  <img src="image\ukmco-ig.png" alt="" class="img-fluid logo-footer">
-</center>
+<div class="ukm-footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+          <h5>
+            <span class="text-unbold">Creative Idea & Design</span><br>
+            <span>OXSA PICASSO</span>
+          </h5>
+
+          <h5>
+            <span class="text-unbold">Programmer</span><br>
+            <span>YOLANDA PARAWITA<br>VEDO ALFARIZI</span>
+          </h5>
+
+      </div>
+      <div class="col-sm-6">
+        <div class="float-footer">
+          <h5>CREATED BY UKMKo</h5>
+          <center>
+          <img src="image\ikonig.png" alt="" class="img-fluid logo-footer">
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

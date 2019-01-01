@@ -32,7 +32,7 @@ body{ margin: 0}
 .ukm-title{
   font-family: Balig;
   font-size: 4em;
-  color: #A88535;
+  color: black;
   margin-bottom: 0px;
   line-height: 60px
 }
@@ -72,10 +72,25 @@ body{ margin: 0}
   max-width: 70%;
 }
 img.logo-footer{
-  width:12%;
+  width:70%;
   cursor: pointer;
 }
 .ukm-text-content>p{
   font-family: Proxima reguler;
   font-size: 1.1em;
+}
+.ukm-footer{
+  padding: 50px 40px 50px 40px;
+  background-color: #A88535;
+  margin-top: 50px;
+  color: white;
+}
+.text-bold{
+  font-weight: bold;
+}
+.text-unbold{
+  font-weight: lighter;
+}
+.float-footer{
+  float: right;
 }
